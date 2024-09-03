@@ -40,16 +40,3 @@ system_profiler SPCameraDataType | grep "^    [^ ]" | sed "s/    //" | sed "s/:/
 ```
 python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
 ```
-
-**Step 6:** If you need any help regarding the arguments you pass, try:
-
-```
-python real_time_object_detection.py --help
-```
-
-### References and Useful Links
-
-* https://github.com/chuanqi305/MobileNet-SSD
-* https://github.com/opencv/opencv
-* https://www.pyimagesearch.com/2017/11/06/deep-learning-opencvs-blobfromimage-works/
-* https://github.com/jrosebr1/imutils
