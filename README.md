@@ -14,7 +14,7 @@ cd ~/Desktop/opencv_project
 git clone [https://github.com/Jaswanth113/Object-Detection.git]
 cd Object-Detection
 ```
-**Step 3:** Install all the necessary libraries. I used MacOS for this project. These are some of the libraries I had to install:
+**Step 3:** Install all the necessary libraries.
 
 ```
 brew install opencv
@@ -26,9 +26,9 @@ pip install matplotlib
 pip install imutils
 ```
 
-Make sure to download and install opencv and and opencv-contrib releases for OpenCV 3.3. This ensures that the deep neural network (dnn) module is installed. You must have OpenCV 3.3 (or newer) to run this code.
+Ensure you have OpenCV 3.3 or newer with both opencv and opencv-contrib releases for the dnn module.
 
-**Step 4:** Make sure you have your video devices connected (e.g. Webcam, FaceTime HD Camera, etc.). You can list them by typing this in your terminal
+**Step 4:** Ensure your video devices are connected. List them with the following command:
 
 ```
 system_profiler SPCameraDataType
